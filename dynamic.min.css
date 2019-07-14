@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 200px;
+}
+.item .lhs {
+  position: relative;
+  height: 100%;
+  border-right: 2px solid #000;
+  padding: 1em;
+}
+.item .lhs h2 {
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+}
+
+/*# sourceMappingURL=dynamic.min.css.map */
