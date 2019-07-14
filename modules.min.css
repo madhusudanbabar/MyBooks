@@ -1,0 +1,141 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: lato;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1% 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.blueline {
+  border-bottom: thick solid #0F7A8A;
+}
+
+.page {
+  position: relative;
+  height: 100vh;
+  overflow-y: hidden;
+  background-image: linear-gradient(lightseagreen, #d0ea64);
+}
+
+.transparent {
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 5px silver;
+}
+
+.intro {
+  display: block;
+  position: absolute;
+  top: 50%;
+  color: #0F7A8A;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.nospace {
+  padding: 0;
+  margin: 0;
+}
+
+.my {
+  margin-bottom: 1em;
+}
+
+.mt3 {
+  margin-top: 3.2em;
+}
+
+.heading {
+  font-weight: 900;
+  font-size: 30px;
+  padding: 2%;
+  text-transform: capitalize;
+  margin: 5%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+._25 {
+  align-self: flex-start;
+  display: block;
+  flex-basis: 30%;
+  height: 100%;
+}
+
+._65 {
+  align-self: flex-end;
+  display: block;
+  flex-basis: 65%;
+  height: 100%;
+}
+
+.clearfix::before, .clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tac {
+  text-align: center;
+}
+
+.rel {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.cen {
+  position: relative;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu_ {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start;
+}
+.menu_ li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.menu_ li a {
+  display: block;
+  height: 100%;
+  padding: 1em;
+}
+
+/*# sourceMappingURL=modules.min.css.map */
