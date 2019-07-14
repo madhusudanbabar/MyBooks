@@ -1,0 +1,27 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: lato;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1% 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=modules.min.css.map */
