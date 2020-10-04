@@ -5,9 +5,60 @@
     <title>MyBooks</title>
     <link rel="stylesheet" href="elegance.min.css">
     <link rel="stylesheet" href="modules.min.css">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">]
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   </head>
-  <body>
+
+  <body onload="initApp()">
+
+    <div class="navbar navbar-inverse sticky-top bg-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" data-target="#mobile_menu" data-toggle="collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                        <a href="home.html" class="navbar-brand">Home</a>
+                    </div>
+
+                    <div class="navbar-collapse collapse" id="mobile_menu">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Home</a></li>
+                            <li class="active"><a href="about.html">Buy</a></li>
+                            <li><a href="#">Sell</a></li>
+                            <li><a href="#">More</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <form action="" class="navbar-form">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input type="search" name="search" id="" placeholder="Search..." class="form-control">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+                                        </div>
+                                    </div>
+                                </form>
+                            </li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a id="username" href="profile.html"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+                            <li><a id="sign" href="register.html"><span class="glyphicon glyphicon-log-in"></span> Login / Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+<!--  <body>
     <header>
       <div class="logo">
         <h1>MyBooks</h1>
@@ -20,5 +71,5 @@
         <li> <input type="text" name="omni" placeholder="Search here"> <a href="#"> &#x1f50d; </a> </li>
       </ul>
     </header>
-  </body>
+  </body>    -->
 </html>
